@@ -9,8 +9,8 @@ import MapKit
 import UIKit
 import CoreLocation
 class mapViewController: UIViewController,MKMapViewDelegate,CLLocationManagerDelegate {
-
-    @IBOutlet weak var maps: MKMapView!
+    
+    @IBOutlet weak var maps: MKMapView! = MKMapView()
     let locationManager = CLLocationManager()
     
     override func viewDidLoad() {
@@ -25,6 +25,9 @@ class mapViewController: UIViewController,MKMapViewDelegate,CLLocationManagerDel
         
         self.locationManager.startUpdatingLocation()
         
+      locationManager.requestAlwaysAuthorization()
+        
+
         self.maps.showsUserLocation = true
         
     }
@@ -44,7 +47,7 @@ class mapViewController: UIViewController,MKMapViewDelegate,CLLocationManagerDel
         
         let region = MKCoordinateRegion(center: centre, span: MKCoordinateSpan(latitudeDelta: 1, longitudeDelta: 1))
         
-        self.maps.setRegion(region, animated: true)
+//        self.maps.setRegion(region, animated: true)
         
         self.locationManager.stopUpdatingLocation()
         

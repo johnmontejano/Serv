@@ -15,6 +15,7 @@
 		161124981D4025C600216EDB /* serviceAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 161124971D4025C600216EDB /* serviceAppTests.swift */; };
 		161124A31D4025C600216EDB /* serviceAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 161124A21D4025C600216EDB /* serviceAppUITests.swift */; };
 		161124B11D402C0300216EDB /* loginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 161124B01D402C0300216EDB /* loginViewController.swift */; };
+		161124B31D40355700216EDB /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 161124B21D40355700216EDB /* MapKit.framework */; };
 		5A86CAFE42164F2AB0B76D5C /* Pods_serviceAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99034F50FA313087EE15389A /* Pods_serviceAppTests.framework */; };
 		700D52C43A572366F54960BB /* Pods_serviceAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAB9896C549E2F4DAE71AC65 /* Pods_serviceAppUITests.framework */; };
 		B35A1120B43E6077A3EFEAF6 /* Pods_serviceApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1051D7CEFF55202E6E946C7 /* Pods_serviceApp.framework */; };
@@ -53,6 +54,7 @@
 		161124A21D4025C600216EDB /* serviceAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = serviceAppUITests.swift; sourceTree = "<group>"; };
 		161124A41D4025C600216EDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		161124B01D402C0300216EDB /* loginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = loginViewController.swift; sourceTree = "<group>"; };
+		161124B21D40355700216EDB /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		2410D359D3CF1FEAE5C2A414 /* Pods-serviceAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-serviceAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-serviceAppTests/Pods-serviceAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 		34AE4C758FF223EA149D3726 /* Pods-serviceAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-serviceAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-serviceAppTests/Pods-serviceAppTests.release.xcconfig"; sourceTree = "<group>"; };
 		7CB370D2300A240B58CA92FE /* Pods-serviceAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-serviceAppUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-serviceAppUITests/Pods-serviceAppUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -68,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				161124B31D40355700216EDB /* MapKit.framework in Frameworks */,
 				B35A1120B43E6077A3EFEAF6 /* Pods_serviceApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -148,6 +151,7 @@
 		2BAFAEA73E43C69892EC141C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				161124B21D40355700216EDB /* MapKit.framework */,
 				A1051D7CEFF55202E6E946C7 /* Pods_serviceApp.framework */,
 				99034F50FA313087EE15389A /* Pods_serviceAppTests.framework */,
 				AAB9896C549E2F4DAE71AC65 /* Pods_serviceAppUITests.framework */,
